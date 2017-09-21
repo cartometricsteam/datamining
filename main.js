@@ -1,6 +1,5 @@
 // # REQUIRES
 /*
-Consumer keys and secrets go into the .env file in the format
-{SOCIAL_NETWORK}_CONSUMER_{KEY|SECRET} and ALWAYS as strings.
+API keys  go into the .env file in the format {SOCIAL NETWORK}_{KEY CLASS}.
 */
 const dotenv = require('dotenv').config();
