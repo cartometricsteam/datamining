@@ -4,8 +4,9 @@ API keys  go into the .env file in the format {SOCIAL NETWORK}_{KEY CLASS}.
 */
 const dotenv = require("dotenv").config(),
       Twitter = require("twitter"),
-      streamSuccess = require('./lib/filter'),
-      streamError = require('./lib/error');
+      argv = require("yarg"),
+      streamSuccess = require("./lib/filter"),
+      streamError = require("./lib/error");
 
 
 // # ENV VARIABLES
@@ -24,7 +25,7 @@ const client = new Twitter({
 /*
 Connect to Twitter stream with the user credentials.
 */
-client.stream('statuses/filter', "", function (stream) {
-  stream.on('data', streamFilter);
-  stream.on('error', streamError);
+client.stream("statuses/filter", argv.filter, function (stream) {
+  stream.on("data", streamFilter);
+  stream.on("error", streamError);
 });
