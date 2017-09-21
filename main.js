@@ -3,7 +3,9 @@
 API keys  go into the .env file in the format {SOCIAL NETWORK}_{KEY CLASS}.
 */
 const dotenv = require("dotenv").config(),
-      Twitter = require("twitter");
+      Twitter = require("twitter"),
+      streamSuccess = require('./lib/success'),
+      streamError = require('./lib/error');
 
 
 /*
