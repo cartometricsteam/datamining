@@ -10,6 +10,14 @@ Clone or download this repository and navigate to the folder, and then to downlo
 ```shell
 npm install
 ```
+You need to have a .env with your secrets and tokens in the same directory. It should look like this:
+```env
+TWITTER_CONSUMER_KEY = "XXXXXXXXXXXXXXXXXXX"
+TWITTER_CONSUMER_SECRET = "XXXXXXXXXXXXXXXXXXX"
+TWITTER_ACCESS_TOKEN_KEY = "XXXXXXXXXXXXXXXXXXXXXXXX"
+TWITTER_ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXX"
+
+```
 
 ### Usage
 Navigate to the directory in which you installed  this script and execute it 
@@ -26,6 +34,7 @@ node main --help
 to see the arguments and examples.
 ## TODO
 - [ ] Add a CONTRIBUTING file!!
+- [ ] Make the .env path a variable
 - [ ] Prettify the output to the console
 - [ ] Implement tests!!
 - [ ] Save results to DB
