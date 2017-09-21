@@ -48,4 +48,4 @@ Open an issue with your problem so we can look at it!.
 Please read [CONTRIBUTING](https://github.com/cartometricsteam/datamining/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
-This is an Open Source project. See the [LICENSE](https://github.com/cartometricsteam/datamining/blob/master/LICENSE.md) file for details
+This is an Open Source project. See the [LICENSE](https://github.com/cartometricsteam/datamining/blob/master/LICENSE) file for details
