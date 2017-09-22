@@ -41,8 +41,8 @@ to see the arguments and examples.
 - [ ] Improve filter.js to remove noise
 - [ ] Add more sites!!
 
-## Problems?
-Open an issue with your problem so we can look at it!.
+## Problems? Suggestions?
+Open an issue so we can look at it!.
 
 ## Contributing
 Please read [CONTRIBUTING](https://github.com/cartometricsteam/datamining/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
