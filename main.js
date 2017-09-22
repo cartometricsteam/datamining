@@ -1,3 +1,7 @@
+/*
+Enable strict mode. Best practices first!
+*/
+"use strict";
 // # REQUIRES
 /*
 API keys  go into the .env file in the format {SOCIAL NETWORK}_{KEY CLASS}.
