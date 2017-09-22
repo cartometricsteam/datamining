@@ -6,7 +6,7 @@ Utility to access datastreaming from various social networks for later analysis.
 You need [NodeJS](https://nodejs.org/en/) installed and configured.
 
 ### Installation
-Clone (preferred) or download this repository and navigate to the folder, and then to download and install the dependencias:
+Clone (preferred) or download this repository and navigate to the folder, and then to download and install the dependencies:
 ```shell
 npm install
 ```
