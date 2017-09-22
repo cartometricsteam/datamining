@@ -6,7 +6,7 @@ Utility to access datastreaming from various social networks for later analysis.
 You need [NodeJS](https://nodejs.org/en/) installed and configured.
 
 ### Installation
-Clone or download this repository and navigate to the folder, and then to download and install the dependencias:
+Clone (preferred) or download this repository and navigate to the folder, and then to download and install the dependencias:
 ```shell
 npm install
 ```
@@ -22,20 +22,20 @@ TWITTER_ACCESS_TOKEN_SECRET = "XXXXXXXXXXXXXXXXXXXXXXXX"
 ### Usage
 Navigate to the directory in which you installed  this script and execute it 
 ```shell
-node main -f [TWITTER FILTER] -k [KEYWORD NEEDED FOR YOUR MINING]
+node app -f [TWITTER FILTER] -k [KEYWORD NEEDED FOR YOUR MINING]
 ```
 
-You can learn more about the filters and keywords in the [docs](https://dev.twitter.com/streaming/reference/post/statuses/filter)
+Learn more about the filters and keywords in the [docs](https://dev.twitter.com/streaming/reference/post/statuses/filter)
 
 You can always use
 ```shell
-node main --help
+node app --help
 ```
 to see the arguments and examples.
 ## TODO
 - [ ] Add a CONTRIBUTING file!!
 - [ ] Make the .env path a variable
-- [ ] Prettify the output to the console
+- [X] Prettify the output to the console
 - [ ] Implement tests!!
 - [ ] Save results to DB
 - [ ] Improve filter.js to remove noise
